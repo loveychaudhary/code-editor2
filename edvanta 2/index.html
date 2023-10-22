@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Code Editor</title>
+</head>
+<body>
+    <div class="header">
+        <div class="title">Code Editor</div>
+    </div>
+    <div class="navbar">
+        <button class="nav-button" id="runButton">Run</button>
+        <button class="nav-button">Save</button>
+        <button class="nav-button">Copy</button>
+        <button class="nav-button" id="lockButton">Lock</button>
+        <button class="nav-button" id="clearButton">Clear</button>
+    </div>
+    <div class="editor-container">
+        <div class="code-editor">
+            <h3 class="section-title">Code Editor</h3>
+            <div contenteditable="true">
+                // Write your code here
+            </div>
+        </div>
+        <div class="output-container">
+            <div>
+                <h3 class="section-title">Output</h3>
+                <div class="output">
+                    <!-- Output will appear here -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
